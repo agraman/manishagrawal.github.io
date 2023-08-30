@@ -1,67 +1,220 @@
 
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+    <head>
+    	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156010715-1"></script>
+<script>
 
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Static Website Example | ux</title>
-<meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="Static Website Example" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://agraman.github.io/ux/" />
-<meta property="og:url" content="https://agraman.github.io/ux/" />
-<meta property="og:site_name" content="ux" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Static Website Example" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"Static Website Example","name":"ux","url":"https://agraman.github.io/ux/"}</script>
-<!-- End Jekyll SEO tag -->
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <link rel="stylesheet" href="/ux/assets/css/style.css?v=692211749da84e11a35378200d65733f0331a527">
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+  gtag('config', 'UA-156010715-1');
 
-<!-- Setup Google Analytics -->
+</script>
+
+<style type="text/css">
+	
+  @media screen and (max-width: 767px) {
+
+  table.top {
+  	/*padding: 15px;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*flex-wrap: wrap;*/
+  }
 
 
+	td.name {
+		column-width: 100%;
+		align-self: center;
+    	margin-bottom: 1em;		
+    	text-align: center;
+	}
 
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/ux/favicon.ico" -->
 
-<!-- end custom head snippets -->
+	.underline {
+		text-align: center;
+		display: inline-block;
+	    vertical-align: middle;
+	    -webkit-transform: perspective(1px) translateZ(0);
+	    transform: perspective(1px) translateZ(0);
+	    box-shadow: 0 0 1px transparent;
+	    position: relative;
+		transition-property: all;
+	    transition-duration: .3s;
+		transition-timing-function: ease-out;
+		font-size:34px !important; 
+	}
 
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
+	.underline:before {
+	    content: "";
+	    position: absolute;
+	    z-index: -1;
+	    left: 0;
+	    right: 100%;
+	    border-radius: 1px;
+	    bottom: 0;
+	    background: rgba(255,185,0,.6);
+	    height: 3px;
+	    transition-property: right;
+	    transition-duration: .3s;
+	    transition-timing-function: ease-out;
+	}
+
+	p.intro1 {
+		margin-top: 5vw;
+		margin-bottom: 5vw;
+
+	}
+
+	p.intro2 {
+		justify-content: center;
+		margin-left: 5vw;
+		margin-right: 5vw;
+	}
+}
+
+td.name {
+	/*text-align: left;*/
+    display: block;
+    padding: 15px;
+}
+
+table.top {
+	display: block;
+}
+
+.underline {
+	text-align: right;
+	padding: 25px;
+}
+
+div.row {
+	align-self: center;
+}
+
+@media screen and (max-width: 1280px) {
+	
+	div.row {
+		align-self: center;
+		margin: auto;
+		display: block;
+		margin-top: 100px;
+		margin-bottom: 0px;
+	}	
+
+	.card {
+		margin-bottom: 40px;
+	}
+}
+
+/* .viewmore {
+	margin-left: 41px;
+	margin-right: 0px;
+	align-content: center;
+	align-self: center;
+	text-align: center;
+
+} */
+/* @media screen and (max-width: 1060px) {
+	.viewmore {
+	margin-left: 39px;
+	margin-right: 0px;
+	align-content: center;
+	align-self: center;
+	text-align: center;
+
+}
+} */
+
+</style>
+
+    	 <link rel="shortcut icon" type="image/png" href="pics/me.png"/>
+        <link rel="stylesheet" href="code/index.css">
+        <link href="https://fonts.googleapis.com/css?family=Caveat|Questrial" rel="stylesheet">
+        
+
+        <title>Divya Mangal</title>
+   <body style="display: 'block'"> 
+       <div class="wrapper">
+	   <div class="head">
+
+           <table class="top">
+           	  <col align="left" width="70%">
+               <col align="right" width="10%">
+               <col align="right" width="10%">
+				<col align="right" width="10%">
+        
+            <tr>
+				<div class="tbody">
+                <div class="name"><a href="index.html" style="font-family:  'Helvetica'; font-size: 30px; margin-top:1rem; margin-left: 3vw;">Divya Mangal</a></div>
+                
+				<div class="lower-nav"><div class="underline"><a href="index.html"; style="color: #7B7B7B;">Portfolio</a></div>
+                <div class="underline"><a href="docs/about.html">About</a></div>
+		<div class="underline"><a href="assets/manish resume.pdf" taget="_blank">Resume</a></div>
+		</div>
+			</tr>
+		
+            </table>
+        </div>
+           
+		<div class="title">
+		<!-- <p class="heading"> Portfolio </p> -->
+		<p>I am a software professional with 17 years of experience, </p>
+	       <p class="intro2"> I started my career in Web development. Now trying to forey into the field of UX design.<br/>   </p>
+		</div>
+ 
+     </div>   
+           
+         
+         
+       <button type="button" class="viewmore" id="myBtn" onclick="myFunction()">View more</button>
+											
+										<script>
+function myFunction() {
+	var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "View more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "View less"; 
+    moreText.style.display = "inline";
+  }
+}
+
+		
+	</script>
+
        
-
-      <h2 id="static-website-example">Static Website Example</h2>
-
-<p>To be used with Cloud Academy labs.</p>
-
-<h2 id="license">License</h2>
-
-<p>This static website is based on the Dimension template by <a href="https://html5up.net/">HTML5 UP</a></p>
-
-<p>Creative Commons License
-All of the site templates I create for <a href="https://html5up.net/">HTML5 UP</a> are licensed under the Creative Commons Attribution 3.0 License, which means you can:</p>
-<ul>
-  <li>Use them for personal stuff</li>
-  <li>Use them for commercial stuff</li>
-  <li>Change them however you like</li>
-</ul>
-
-<p>… all for free, yo. In exchange, just give HTML5 UP credit for the design and tell your friends about it :)</p>
-
-<p>More info <a href="https://html5up.net/license">here</a>.</p>
-
-
+       
+       
+       
+       <div class="footer">
+            <ul class="sm_footer">
+		<li class="dr"><a href="https://dribbble.com/Divyamangal" target="_blank"><img src="pics/dribbble.png" class="icon"></img></a> </li>
+		<li class="be"> <a href="https://www.behance.net/divyamanga1660" target="_blank"><img src="pics/behance.png" class="icon"></img></a></li>
+		<li class="in"><a href="https://medium.com/@divyamangal" target="_blank"><img src="pics/medium.png" class="icon"></img> </a></li>
+		<li class="li"><a href="https://www.linkedin.com/in/divya-mangal-517a87133/" target="_blank"> <img src="pics/linkedin.png" class="icon"> </img></a></li>
+                <li class="fb"><a href="https://www.facebook.com/divyamangal45" target="_blank"> <img src="pics/facebook.png" class="icon"></img> </a></li> 
+            </ul>
+            </ul>
+            <p>Crafted with</p><img src="pics/heart-01.png" style="width: 13px; margin-left:7px;">
+		</div>  
+           
+           
+           
+    
       
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-  </body>
+    </body>
+    
+   
+    
+    </head>
+
 </html>
